@@ -1,0 +1,110 @@
+
+body{
+	
+	font-family: 'Righteous', cursive;
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-family: 'Orbitron', sans-serif;
+	font-family: 'Paytone One', sans-serif;
+}
+.button {
+  background-color: #696969; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white; 
+  color: black; 
+  border: 2px solid #696969;
+  margin-left: 645px;
+  margin-top: 20px;
+}
+.button:hover {
+  background-color: #696969;
+  color: white;
+}
+.cell{
+	width: 100px;
+	padding:50px;
+	background-color: #e8e8e8;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	box-shadow: 10px 5px 5px grey;
+}
+
+#words{
+	display:flex;
+	width: 80%;
+  margin: 20px auto;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+h1{
+	text-align: center;
+}
+#points{
+	display:flex;
+	width: 80%;
+  margin: 20px auto;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+}
+#blue{
+	color:#1E90FF;
+	text-align: center;
+	font-size: 20px;
+}
+#red{
+	color:red;
+	text-align: center;
+	font-size: 20px;
+}
+#blues{
+	color:#1E90FF;
+	margin: 20px;
+	font-size: 20px;
+}
+#reds{
+	color:red;
+	margin: 20px;
+	font-size: 20px;	
+}
+#view{
+	text-align: center;
+	font-size: 30px;
+}
+.spy_blue{
+	color: #1E90FF;
+}
+.spy_red{
+	color: red;
+}
+.spy_grey{
+	color: #A9A9A9;
+}
+.spy_bomb{
+	color: #696969;
+}
+.player_blue{
+	background-color: #1E90FF;
+	color: white;
+}
+.player_red{
+	background-color: red;
+	color: white;
+}
+.player_grey{
+	background-color: #A9A9A9;
+	color: white;
+}
+.player_bomb{
+	background-color: #696969;
+	color: white;
+}
